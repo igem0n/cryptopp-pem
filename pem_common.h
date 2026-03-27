@@ -10,9 +10,9 @@
 #ifndef CRYPTOPP_PEM_COMMON_H
 #define CRYPTOPP_PEM_COMMON_H
 
-#include "cryptlib.h"
-#include "secblock.h"
-#include "osrng.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/osrng.h"
 #include "pem.h"
 
 #include <string>

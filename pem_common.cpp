@@ -6,13 +6,12 @@
 //   http://www.cryptopp.com/wiki/PEM_Pack
 ///////////////////////////////////////////////////////////////////////////
 
-#include "pch.h"
-#include "cryptlib.h"
+#include "cryptopp/cryptlib.h"
 #include "x509cert.h"
-#include "secblock.h"
-#include "integer.h"
-#include "base64.h"
-#include "osrng.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/integer.h"
+#include "cryptopp/base64.h"
+#include "cryptopp/osrng.h"
 
 #include <algorithm>
 #include <cctype>

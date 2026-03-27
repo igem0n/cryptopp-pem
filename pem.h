@@ -15,14 +15,14 @@
 #ifndef CRYPTOPP_PEM_H
 #define CRYPTOPP_PEM_H
 
-#include "pubkey.h"
-#include "eccrypto.h"
-#include "gfpcrypt.h"
+#include "cryptopp/pubkey.h"
+#include "cryptopp/eccrypto.h"
+#include "cryptopp/gfpcrypt.h"
 #include "x509cert.h"
-#include "elgamal.h"
-#include "rsa.h"
-#include "dsa.h"
-#include "asn.h"
+#include "cryptopp/elgamal.h"
+#include "cryptopp/rsa.h"
+#include "cryptopp/dsa.h"
+#include "cryptopp/asn.h"
 
 NAMESPACE_BEGIN(CryptoPP)
 

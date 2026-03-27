@@ -6,28 +6,27 @@
 //   http://www.cryptopp.com/wiki/PEM_Pack
 ///////////////////////////////////////////////////////////////////////////
 
-#include "pch.h"
-#include "cryptlib.h"
-#include "secblock.h"
-#include "camellia.h"
-#include "smartptr.h"
-#include "filters.h"
-#include "base64.h"
-#include "files.h"
-#include "queue.h"
-#include "modes.h"
-#include "osrng.h"
-#include "asn.h"
-#include "aes.h"
-#include "idea.h"
-#include "hex.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/camellia.h"
+#include "cryptopp/smartptr.h"
+#include "cryptopp/filters.h"
+#include "cryptopp/base64.h"
+#include "cryptopp/files.h"
+#include "cryptopp/queue.h"
+#include "cryptopp/modes.h"
+#include "cryptopp/osrng.h"
+#include "cryptopp/asn.h"
+#include "cryptopp/aes.h"
+#include "cryptopp/idea.h"
+#include "cryptopp/hex.h"
 
 #include "pem.h"
 #include "pem_common.h"
 
 #define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
-#include "des.h"
-#include "md5.h"
+#include "cryptopp/des.h"
+#include "cryptopp/md5.h"
 
 #include <string>
 #include <algorithm>

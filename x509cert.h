@@ -22,10 +22,10 @@
 #ifndef CRYPTOPP_X509_CERTIFICATE_H
 #define CRYPTOPP_X509_CERTIFICATE_H
 
-#include "cryptlib.h"
-#include "secblock.h"
-#include "stdcpp.h"
-#include "asn.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/stdcpp.h"
+#include "cryptopp/asn.h"
 
 #include <iosfwd>
 #include <string>

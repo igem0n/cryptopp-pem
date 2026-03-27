@@ -8,27 +8,26 @@
 //   http://www.cryptopp.com/wiki/PEM_Pack
 ///////////////////////////////////////////////////////////////////////////
 
-#include "pch.h"
-#include "cryptlib.h"
-#include "secblock.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/secblock.h"
 #include "x509cert.h"
-#include "integer.h"
-#include "files.h"
-#include "oids.h"
-#include "trap.h"
+#include "cryptopp/integer.h"
+#include "cryptopp/files.h"
+#include "cryptopp/oids.h"
+#include "cryptopp/trap.h"
 
-#include "rsa.h"
-#include "dsa.h"
-#include "pssr.h"
-#include "eccrypto.h"
-#include "xed25519.h"
+#include "cryptopp/rsa.h"
+#include "cryptopp/dsa.h"
+#include "cryptopp/pssr.h"
+#include "cryptopp/eccrypto.h"
+#include "cryptopp/xed25519.h"
 
 // For printing
-#include "filters.h"
-#include "hex.h"
+#include "cryptopp/filters.h"
+#include "cryptopp/hex.h"
 
 // For Validate
-#include "osrng.h"
+#include "cryptopp/osrng.h"
 
 #include <iostream>
 #include <iomanip>
